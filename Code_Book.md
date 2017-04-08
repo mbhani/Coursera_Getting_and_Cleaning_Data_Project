@@ -101,7 +101,84 @@ The “*run_analysis.R*” script does the following:
           TimeDomainBodyGyroscope-Mean()-Y
           TimeDomainBodyGyroscope-Mean()-Z
           
-          TimeDomainBodyGyroscope-StandardDeviation()-X TimeDomainBodyGyroscope-StandardDeviation()-Y TimeDomainBodyGyroscope-StandardDeviation()-Z TimeDomainBodyGyroscopeJerk-Mean()-X TimeDomainBodyGyroscopeJerk-Mean()-Y TimeDomainBodyGyroscopeJerk-Mean()-Z TimeDomainBodyGyroscopeJerk-StandardDeviation()-X TimeDomainBodyGyroscopeJerk-StandardDeviation()-Y TimeDomainBodyGyroscopeJerk-StandardDeviation()-Z TimeDomainBodyAccelerometerMagnitude-Mean() TimeDomainBodyAccelerometerMagnitude-StandardDeviation() TimeDomainGravityAccelerometerMagnitude-Mean() TimeDomainGravityAccelerometerMagnitude-StandardDeviation() TimeDomainBodyAccelerometerJerkMagnitude-Mean() TimeDomainBodyAccelerometerJerkMagnitude-StandardDeviation() TimeDomainBodyGyroscopeMagnitude-Mean() TimeDomainBodyGyroscopeMagnitude-StandardDeviation() TimeDomainBodyGyroscopeJerkMagnitude-Mean() TimeDomainBodyGyroscopeJerkMagnitude-StandardDeviation() FrequencyDomainBodyAccelerometer-Mean()-X FrequencyDomainBodyAccelerometer-Mean()-Y FrequencyDomainBodyAccelerometer-Mean()-Z FrequencyDomainBodyAccelerometer-StandardDeviation()-X FrequencyDomainBodyAccelerometer-StandardDeviation()-Y FrequencyDomainBodyAccelerometer-StandardDeviation()-Z FrequencyDomainBodyAccelerometer-MeanFrequency()-X FrequencyDomainBodyAccelerometer-MeanFrequency()-Y FrequencyDomainBodyAccelerometer-MeanFrequency()-Z FrequencyDomainBodyAccelerometerJerk-Mean()-X FrequencyDomainBodyAccelerometerJerk-Mean()-Y FrequencyDomainBodyAccelerometerJerk-Mean()-Z FrequencyDomainBodyAccelerometerJerk-StandardDeviation()-X FrequencyDomainBodyAccelerometerJerk-StandardDeviation()-Y FrequencyDomainBodyAccelerometerJerk-StandardDeviation()-Z FrequencyDomainBodyAccelerometerJerk-MeanFrequency()-X FrequencyDomainBodyAccelerometerJerk-MeanFrequency()-Y FrequencyDomainBodyAccelerometerJerk-MeanFrequency()-Z FrequencyDomainBodyGyroscope-Mean()-X FrequencyDomainBodyGyroscope-Mean()-Y FrequencyDomainBodyGyroscope-Mean()-Z FrequencyDomainBodyGyroscope-StandardDeviation()-X FrequencyDomainBodyGyroscope-StandardDeviation()-Y FrequencyDomainBodyGyroscope-StandardDeviation()-Z FrequencyDomainBodyGyroscope-MeanFrequency()-X FrequencyDomainBodyGyroscope-MeanFrequency()-Y FrequencyDomainBodyGyroscope-MeanFrequency()-Z FrequencyDomainBodyAccelerometerMagnitude-Mean() FrequencyDomainBodyAccelerometerMagnitude-StandardDeviation() FrequencyDomainBodyAccelerometerMagnitude-MeanFrequency() FrequencyDomainBodyAccelerometerJerkMagnitude-Mean() FrequencyDomainBodyAccelerometerJerkMagnitude-StandardDeviation() FrequencyDomainBodyAccelerometerJerkMagnitude-MeanFrequency() FrequencyDomainBodyGyroscopeMagnitude-Mean() FrequencyDomainBodyGyroscopeMagnitude-StandardDeviation() FrequencyDomainBodyGyroscopeMagnitude-MeanFrequency() FrequencyDomainBodyGyroscopeJerkMagnitude-Mean() FrequencyDomainBodyGyroscopeJerkMagnitude-StandardDeviation() FrequencyDomainBodyGyroscopeJerkMagnitude-MeanFrequency()
+          TimeDomainBodyGyroscope-StandardDeviation()-X
+          TimeDomainBodyGyroscope-StandardDeviation()-Y
+          TimeDomainBodyGyroscope-StandardDeviation()-Z
+          
+          TimeDomainBodyGyroscopeJerk-Mean()-X
+          TimeDomainBodyGyroscopeJerk-Mean()-Y
+          TimeDomainBodyGyroscopeJerk-Mean()-Z
+          
+          TimeDomainBodyGyroscopeJerk-StandardDeviation()-X
+          TimeDomainBodyGyroscopeJerk-StandardDeviation()-Y
+          TimeDomainBodyGyroscopeJerk-StandardDeviation()-Z
+          
+          TimeDomainBodyAccelerometerMagnitude-Mean()
+          TimeDomainBodyAccelerometerMagnitude-StandardDeviation()
+          
+          TimeDomainGravityAccelerometerMagnitude-Mean()
+          TimeDomainGravityAccelerometerMagnitude-StandardDeviation()
+          
+          TimeDomainBodyAccelerometerJerkMagnitude-Mean()
+          TimeDomainBodyAccelerometerJerkMagnitude-StandardDeviation()
+          
+          TimeDomainBodyGyroscopeMagnitude-Mean()
+          TimeDomainBodyGyroscopeMagnitude-StandardDeviation()
+          
+          TimeDomainBodyGyroscopeJerkMagnitude-Mean()
+          TimeDomainBodyGyroscopeJerkMagnitude-StandardDeviation()
+          
+          FrequencyDomainBodyAccelerometer-Mean()-X
+          FrequencyDomainBodyAccelerometer-Mean()-Y
+          FrequencyDomainBodyAccelerometer-Mean()-Z
+          
+          FrequencyDomainBodyAccelerometer-StandardDeviation()-X
+          FrequencyDomainBodyAccelerometer-StandardDeviation()-Y
+          FrequencyDomainBodyAccelerometer-StandardDeviation()-Z
+          
+          FrequencyDomainBodyAccelerometer-MeanFrequency()-X
+          FrequencyDomainBodyAccelerometer-MeanFrequency()-Y
+          FrequencyDomainBodyAccelerometer-MeanFrequency()-Z
+          
+          FrequencyDomainBodyAccelerometerJerk-Mean()-X
+          FrequencyDomainBodyAccelerometerJerk-Mean()-Y
+          FrequencyDomainBodyAccelerometerJerk-Mean()-Z
+          
+          FrequencyDomainBodyAccelerometerJerk-StandardDeviation()-X
+          FrequencyDomainBodyAccelerometerJerk-StandardDeviation()-Y
+          FrequencyDomainBodyAccelerometerJerk-StandardDeviation()-Z
+          
+          FrequencyDomainBodyAccelerometerJerk-MeanFrequency()-X
+          FrequencyDomainBodyAccelerometerJerk-MeanFrequency()-Y
+          FrequencyDomainBodyAccelerometerJerk-MeanFrequency()-Z
+          
+          FrequencyDomainBodyGyroscope-Mean()-X
+          FrequencyDomainBodyGyroscope-Mean()-Y
+          FrequencyDomainBodyGyroscope-Mean()-Z
+          
+          FrequencyDomainBodyGyroscope-StandardDeviation()-X
+          FrequencyDomainBodyGyroscope-StandardDeviation()-Y
+          FrequencyDomainBodyGyroscope-StandardDeviation()-Z
+          
+          FrequencyDomainBodyGyroscope-MeanFrequency()-X
+          FrequencyDomainBodyGyroscope-MeanFrequency()-Y
+          FrequencyDomainBodyGyroscope-MeanFrequency()-Z
+          
+          FrequencyDomainBodyAccelerometerMagnitude-Mean()
+          FrequencyDomainBodyAccelerometerMagnitude-StandardDeviation()
+          FrequencyDomainBodyAccelerometerMagnitude-MeanFrequency()
+          
+          FrequencyDomainBodyAccelerometerJerkMagnitude-Mean()
+          FrequencyDomainBodyAccelerometerJerkMagnitude-StandardDeviation()
+          FrequencyDomainBodyAccelerometerJerkMagnitude-MeanFrequency()
+         
+          FrequencyDomainBodyGyroscopeMagnitude-Mean()
+          FrequencyDomainBodyGyroscopeMagnitude-StandardDeviation()
+          FrequencyDomainBodyGyroscopeMagnitude-MeanFrequency()
+          
+          FrequencyDomainBodyGyroscopeJerkMagnitude-Mean()
+          FrequencyDomainBodyGyroscopeJerkMagnitude-StandardDeviation()
+          FrequencyDomainBodyGyroscopeJerkMagnitude-MeanFrequency()
 
 
 
