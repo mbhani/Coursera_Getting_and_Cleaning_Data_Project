@@ -4,7 +4,7 @@ The original data set was obtained from the research that is referenced in the f
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-For each record in the original dataset it is provided:
+### For each record in the original dataset it is provided:
 =======================================================
 
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
@@ -13,7 +13,7 @@ For each record in the original dataset it is provided:
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
 
-The dataset includes the following files:
+### The dataset includes the following files:
 =========================================
 
 - 'README.txt'
@@ -42,7 +42,7 @@ The following files are available for the train and test data. Their description
 
 - 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
 
-Notes: 
+### Notes: 
 ======
 - Features are normalized and bounded within [-1,1].
 - Each feature vector is a row on the text file.
