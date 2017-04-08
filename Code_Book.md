@@ -54,10 +54,11 @@ The “run_analysis.R” script does the following:
 
 16. Finally it writes out the final tidy data set (after melting and recasting) and calls it “tidydata.txt” (181 x  81 data frame)
 
-* The following summarizes the variable names in the final dataset tidydata.txt at the end of running the script:
+### The following summarizes the variable names in the final dataset tidydata.txt at the end of running the script:
 
 * subject 
-+ This is an identifier of the subject who carried out the experiment. The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. subject values ranges from 1 to 30 in this dataset
+    + This is an identifier of the subject who carried out the experiment. The experiments have been carried out with a group of    
+    30 volunteers within an age bracket of 19-48 years. subject values ranges from 1 to 30 in this dataset
 
 * activity
     + This is the activity label. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING,                 
