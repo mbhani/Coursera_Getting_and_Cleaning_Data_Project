@@ -58,8 +58,8 @@ The “run_analysis.R” script does the following:
 
 * subject 
     + This is an identifier of the subject who carried out the experiment. The experiments have been carried out with a group of    
-    30 volunteers within an age bracket of 19-48 years. subject values ranges from 1 to 30 in this dataset
-
+    30 volunteers within an age bracket of 19-48 years. The subject values ranges from 1 to 30 in this dataset.
+    
 * activity
     + This is the activity label. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING,                        
     STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. 
