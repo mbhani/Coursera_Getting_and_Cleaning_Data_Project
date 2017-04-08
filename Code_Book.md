@@ -6,11 +6,11 @@ The purpose of this project is to demonstrate ability to collect, work with, mes
 
 The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the following link where the data was obtained for research purposes (Human Activity Recognition Using Smart Phones):
 
-[link] (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 The following link is the raw data that was downloaded and used as part of this project:
 
-[link] (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 The R script “*run_analysis.R*” that is part of this repository does all the sorting and merging and extracting of the tidy dataset, use source("run_analysis.R") command in RStudio to run the script. 
 
@@ -64,12 +64,12 @@ The “*run_analysis.R*” script does the following:
     
     + The activity labels are found in file activity_labels.txt are are as follows:
     
-              1 WALKING
-              2 WALKING_UPSTAIRS
-              3 WALKING_DOWNSTAIRS
-              4 SITTING
-              5 STANDING
-              6 LAYING
+          1 ==> WALKING
+          2 ==> WALKING_UPSTAIRS
+          3 ==> WALKING_DOWNSTAIRS
+          4 ==> SITTING
+          5 ==> STANDING
+          6 ==> LAYING
 
 * The dataset includes the following measurements:
 
@@ -180,5 +180,15 @@ The “*run_analysis.R*” script does the following:
           FrequencyDomainBodyGyroscopeJerkMagnitude-StandardDeviation()
           FrequencyDomainBodyGyroscopeJerkMagnitude-MeanFrequency()
 
+* The script appropriately labels the data set with descriptive variable names, a comparison between variable names before and after is as follows:
 
+          replace "std()" with "StandarDeviation"
+          replace "meanFreq()" with "MeanFrequency"
+          replace "mean()" with "Mean"
+          replace "Mag" with "Magnitude"
+          replace "Acc" with "accelerometer"
+          replace "Gyro" with "Gyroscope"
+          replace "BodyBody" with "Body" due to redundancy
+          replace "t" with "TimeDomain"
+          replace "f" with "FrequencyDomain"
 
