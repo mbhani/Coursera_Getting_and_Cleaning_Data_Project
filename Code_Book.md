@@ -12,7 +12,7 @@ The following link is the raw data that was downloaded and used as part of this 
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-The R script “run_analysis.R” that is part of this repository does all the sorting and merging and extracting of the tidy dataset, use source("run_analysis.R") command in RStudio to run the script. 
+The R script “*run_analysis.R*” that is part of this repository does all the sorting and merging and extracting of the tidy dataset, use source("run_analysis.R") command in RStudio to run the script. 
 
 At the end of running the script it will output in your local directory three data text files generated as a result of script execution, these text files are:
 
@@ -20,7 +20,7 @@ At the end of running the script it will output in your local directory three da
 * melteddata.txt
 * tidydata.txt
 
-The “run_analysis.R” script does the following:
+The “*run_analysis.R*” script does the following:
 
 1. Upon running the script for the first time in RStudio, it will initially create a temporary directory called “./temp” under your working directory where script is loaded , then it fetches the data set zip folder from the https website using the “downloader” package,
 
@@ -42,19 +42,19 @@ The “run_analysis.R” script does the following:
 
 10. Extracts only the measurements on the mean and standard deviation for each measurement. 
 
-11. Uses descriptive activity names to name the activities in the data set, and then it labels the data set with descriptive variable names. After changing the names it write an output text file for the merged cleaned data set called: extracted_data2.txt (10299 x 81)
+11. Uses descriptive activity names to name the activities in the data set, and then it labels the data set with descriptive variable names. After changing the names it write an output text file for the merged cleaned data set called: *extracted_data2.txt* (10299 x 81)
 
-12. Order the extracted data (extracted_data2.txt)  first ordered by subject then ordered by activity
+12. Order the extracted data (*extracted_data2.txt*)  first ordered by subject then ordered by activity
 
 13. Melt the extracted ordered data to make it a very long skinny data frame (813621 x 4) so that there is only one row for each measurement value, with variable equal to the column names in the merged data, and value equal to all the value of each measurement
 
-14. Writes out the melted long skinny data frame to an output text file called: melteddata.txt (813621 x 4) is used for debug purposes only.
+14. Writes out the melted long skinny data frame to an output text file called: *melteddata.txt* (813621 x 4) is used for debug purposes only.
 
 15. Recast the melted data set into a specific shape and new data frame and put subject and activity as the variables, and takes the average value of each variable for each subject and activity pair in the melted data set. 
 
 16. Finally it writes out the final tidy data set (after melting and recasting) and calls it “tidydata.txt” (181 x  81 data frame)
 
-### The following summarizes the variable names in the final dataset tidydata.txt at the end of running the script:
+### The following summarizes the variable names in the final dataset *tidydata.txt* at the end of running the script:
 
 * subject 
     + This is an identifier of the subject who carried out the experiment. The experiments have been carried out with a group of  30 volunteers within an age bracket of 19-48 years. The subject values ranges from 1 to 30 in this dataset.
