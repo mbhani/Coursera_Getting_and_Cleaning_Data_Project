@@ -62,7 +62,9 @@ The “run_analysis.R” script does the following:
 
 * activity
     + This is the activity label. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING,                        
-    STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. The activity labels are found in file 
+    STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. 
+    
+    + The activity labels are found in file 
     activity_labels.txt are are as follows:
     
             + 1 WALKING
@@ -72,6 +74,7 @@ The “run_analysis.R” script does the following:
             + 5 STANDING
             + 6 LAYING
 
+* The dataset includes the following measurements:
 
 + TimeDomainBodyAccelerometer-Mean()-X
 + TimeDomainBodyAccelerometer-Mean()-Y
