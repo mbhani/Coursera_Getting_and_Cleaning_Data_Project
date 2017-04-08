@@ -1,6 +1,6 @@
 # Coursera Getting and Cleaning Data Course Project
 
-The “*run_analysis.R*” script does the following:
+### The “*run_analysis.R*” script does the following:
 
 1. Upon running the script for the first time in RStudio, it will initially create a temporary directory called “*./temp*” under your working directory where script is loaded , then it fetches the data set zip folder from the https website using the “downloader” package,
 
