@@ -1,8 +1,8 @@
 # Coursera Getting and Cleaning Data Course Project
 
-This is a repository that has the course project data sets and R script file and detail documentation of the project deliverables and goals. 
+This is a repository for the coursera "Getting and Cleaning Data" course. The course project data sets and R script file and detail documentation of the project deliverables and goals are in this repository. 
 
-The purpose of this project is to demonstrate ability to collect, work with, message and clean, post process raw data set. The goal is to prepare tidy data set that can be used for later analysis by others.
+The purpose of this project is to demonstrate one's ability to collect, work with, and message and clean, post process raw data set. The end goal was to prepare tidy data set that can be used for later analysis by others.
 
 The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the following link where the data was obtained for research purposes (Human Activity Recognition Using Smart Phones):
 
