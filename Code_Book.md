@@ -57,6 +57,8 @@ The “run_analysis.R” script does the following:
 * The following summarizes the variable names in the final dataset tidydata.txt at the end of running the script:
 
 + subject 
+++ An identifier of the subject who carried out the experiment. The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years.
+
 + activity
 + TimeDomainBodyAccelerometer-Mean()-X
 + TimeDomainBodyAccelerometer-Mean()-Y
