@@ -57,12 +57,10 @@ The “run_analysis.R” script does the following:
 ### The following summarizes the variable names in the final dataset tidydata.txt at the end of running the script:
 
 * subject 
-    + This is an identifier of the subject who carried out the experiment. The experiments have been carried out with a group of    
-    30 volunteers within an age bracket of 19-48 years. The subject values ranges from 1 to 30 in this dataset.
+    + This is an identifier of the subject who carried out the experiment. The experiments have been carried out with a group of  30 volunteers within an age bracket of 19-48 years. The subject values ranges from 1 to 30 in this dataset.
     
 * activity
-    + This is the activity label. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING,                        
-    STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. 
+    + This is the activity label. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING,                      STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. 
     
     + The activity labels are found in file 
     activity_labels.txt are are as follows:
