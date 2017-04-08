@@ -16,25 +16,25 @@ The R script “*run_analysis.R*” that is part of this repository does all the
 
 At the end of running the script it will output in your local directory three data text files generated as a result of script execution, these text files are:
 
-* extracted_data2.txt
-* melteddata.txt
-* tidydata.txt
+* *extracted_data2.txt*
+* *melteddata.txt*
+* *tidydata.txt*
 
 The “*run_analysis.R*” script does the following:
 
-1. Upon running the script for the first time in RStudio, it will initially create a temporary directory called “./temp” under your working directory where script is loaded , then it fetches the data set zip folder from the https website using the “downloader” package,
+1. Upon running the script for the first time in RStudio, it will initially create a temporary directory called “*./temp*” under your working directory where script is loaded , then it fetches the data set zip folder from the https website using the “downloader” package,
 
-2. After downloading the zip folder , it create a “./data” directory (if not already existed) in your working directory and it extracts the zip folder to the “./data/ UCI HAR Dataset” new directory (Notice that downloading the data set zip folder for the first time and extracting it only need to be done once after you execute the script for the first time, after that you need to comment the file “download()” and the “unzip()” function commands from the script to avoid downloading the same data multiple times every time you execute the script. In this repository we included the data and the temp folders for convenience but are not needed to run the script as it can generate automatically these folders upon the first time you run the script.)
+2. After downloading the zip folder , it create a “*./data*” directory (if not already existed) in your working directory and it extracts the zip folder to the “*./data/ UCI HAR Dataset*” new directory (Notice that downloading the data set zip folder for the first time and extracting it only need to be done once after you execute the script for the first time, after that you need to comment the file “download()” and the “unzip()” function commands from the script to avoid downloading the same data multiple times every time you execute the script. In this repository we included the data and the temp folders for convenience but are not needed to run the script as it can generate automatically these folders upon the first time you run the script.)
 
-3. Next it loads the feature names from features.txt file (names are the same for train and test data) then it add the feature names to both the training and the test data sets
+3. Next it loads the feature names from *features.txt* file (names are the same for train and test data) then it add the feature names to both the training and the test data sets
 
 4. The script then merges the machine learning training and the test data sets (after adding feature names) to create one single data set
 
-5. Load the numerical subject data for the training and test data from subject_train.txt (70% or 24 subjects) and from subject_test.txt (30% or 6 subjects) files under the “./data/ UCI HAR Dataset” directory, then it merges subjects trained and tested data into single subjects data frame (100% or 30 total subjects) 
+5. Load the numerical subject data for the training and test data from *subject_train.txt* (70% or 24 subjects) and from *subject_test.txt* (30% or 6 subjects) files under the “*./data/ UCI HAR Dataset*” directory, then it merges subjects trained and tested data into single subjects data frame (100% or 30 total subjects) 
 
-6. Loads the activity labels text data file (./data/UCI HAR Dataset/activity_labels.txt), which is the same for both training and testing data sets
+6. Loads the activity labels text data file (*./data/UCI HAR Dataset/activity_labels.txt*), which is the same for both training and testing data sets
 
-7. Loads the activity train and test values from y_train.txt and y_test.txt files, then it merges the activity train and test values into a single data frame
+7. Loads the activity train and test values from *y_train.txt* and *y_test.txt* files, then it merges the activity train and test values into a single data frame
 
 8. Merges the subjects and activity data frames with the merged data 
 
@@ -52,7 +52,7 @@ The “*run_analysis.R*” script does the following:
 
 15. Recast the melted data set into a specific shape and new data frame and put subject and activity as the variables, and takes the average value of each variable for each subject and activity pair in the melted data set. 
 
-16. Finally it writes out the final tidy data set (after melting and recasting) and calls it “tidydata.txt” (181 x  81 data frame)
+16. Finally it writes out the final tidy data set (after melting and recasting) and calls it “*tidydata.txt*” (181 x  81 data frame)
 
 ### The following summarizes the variable names in the final dataset *tidydata.txt* at the end of running the script:
 
